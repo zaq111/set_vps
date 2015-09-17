@@ -1,0 +1,27 @@
+x1.setIntPref("cache.disk.max_chunks_memory_usage", config[1]);
+1024
+x1.setIntPref("cache.disk.max_priority_chunks_memory_usage",config[3]);
+1024
+x1.setIntPref("cache.memory.max_entry_size",config[5]);
+1024
+x1.setBoolPref("sessionstore.resume_from_crash", config[7]);
+false
+x1.setBoolPref("fullscreen.animate", config[9]);
+false
+x1.setBoolPref("fullscreen.autohide", config[11]);
+false
+x2.setBoolPref("options.gc_on_memory_pressure",config[13]);
+false
+x2.setIntPref("options.mem.max", config[15]);
+65535
+x3.setBoolPref("free_dirty_pages", config[17]);
+true
+x3.setIntPref("ghost_window_timeout_seconds", config[19]);
+30
+
+
+//tweak firefox
+//var x1    = pref.getBranch("browser.");
+//var x2    = pref.getBranch("javascript.");
+//var x3    = pref.getBranch("memory.");
+
