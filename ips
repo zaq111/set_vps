@@ -18,8 +18,9 @@ IP:PORT
 
 
 
-//End Server IP //Start Server 101 IP di Line 21 Format --> IP:PORT:SOCKS/PROXY
-210.202.25.51:3389:2
+//End Server IP //Start Server 101 IP di Line 21 Format --> IP:PORT:SOCKS/PROXY 1=socks 2=proxy
+104.44.130.71:80:2
+210.202.25.51:3389:1
 200.73.5.58:52595
 178.151.173.146:17941
 210.202.25.51:3389
